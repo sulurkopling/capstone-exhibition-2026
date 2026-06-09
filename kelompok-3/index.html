@@ -1,1 +1,206 @@
-��
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSOMNIFY — Deteksi Dini Gangguan Insomnia | Kelompok 3</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+
+    <nav class="top-nav">
+        <div class="nav-logo">
+            <img src="assets/logo.png" alt="Logo Insomnify" class="brand-logo-img"> INSOMNIFY
+        </div>
+
+        <button class="menu-toggle" id="mobile-menu-btn" aria-label="Buka Menu Navigasi">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <ul class="nav-links" id="nav-menu-links">
+            <li><a href="#hero">Beranda</a></li>
+            <li><a href="#about">Tentang Project</a></li>
+            <li><a href="#team">Tim Pengembang</a></li>
+            <li><a href="#luaran">Luaran Project</a></li>
+        </ul>
+
+        <a href="../index.html" class="back-pameran">
+            <i class="fas fa-arrow-left"></i> Kembali Ke Pameran
+        </a>
+    </nav>
+
+    <header id="hero" class="hero">
+        <div class="welcome-header">
+            <div class="hero-chip">
+                <i class="fas fa-sparkles"></i> Capstone Project 2026
+            </div>
+            <h2>Selamat Datang di Pameran Insomnify</h2>
+        </div>
+
+        <div class="hero-inner">
+            <h1>INSOMNIFY <span>Deteksi Dini Gangguan Insomnia</span></h1>
+            <p class="hero-desc">Platform edukasi kesehatan berbasis web inovatif yang membantu masyarakat memahami,
+                mendeteksi, dan mengidentifikasi gangguan tidur insomnia secara mandiri melalui sistem pakar akurat
+                berbasis metode Forward Chaining.</p>
+            <div class="hero-buttons">
+                <a href="https://insomnify.vercel.app/" target="_blank" class="btn btn-primary">
+                    <i class="fas fa-external-link-alt"></i> Website Insomnify
+                </a>
+                <a href="#luaran" class="btn btn-secondary">Lihat Hasil Karya</a>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <img src="assets/insomnify.png" alt="Mockup Aplikasi INSOMNIFY" class="hero-mockup-img">
+        </div>
+
+        <div class="hero-bottom-pills">
+            <div class="glass-pill"><i class="fas fa-bed"></i> Edukasi Insomnia</div>
+            <div class="glass-pill"><i class="fas fa-search"></i> Deteksi Dini</div>
+            <div class="glass-pill"><i class="fas fa-notes-medical"></i> Rekomendasi Pakar</div>
+            <div class="glass-pill"><i class="fas fa-brain"></i> Forward Chaining</div>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section id="about" class="section-block">
+            <div class="section-header">
+                <span class="section-tag">01 / Informasi Sistem</span>
+                <h2>Tentang Project</h2>
+            </div>
+            <div class="about-glass-card">
+                <div class="about-text">
+                    <h3>Mengenal Lebih Dekat INSOMNIFY</h3>
+                    <p>INSOMNIFY hadir sebagai respons nyata atas meningkatnya prevalensi gangguan tidur di masyarakat
+                        modern yang sering kali diabaikan. Melalui integrasi ilmu kesehatan dan teknologi kecerdasan
+                        buatan, sistem pakar ini melakukan pelacakan penalaran maju secara sistematis untuk menarik
+                        kesimpulan diagnosis awal berdasarkan indikasi atau gejala klinis tidur yang dirasakan pengguna.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-val">Forward Chaining</span>
+                        <span class="stat-lbl">Metode Sistem Pakar</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-val">Responsive Web</span>
+                        <span class="stat-lbl">Arsitektur Platform</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-val">2026</span>
+                        <span class="stat-lbl">Tahun Pengembangan</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="team" class="section-block">
+            <div class="section-header">
+                <span class="section-tag">02 / Profil Anggota</span>
+                <h2>Tim Pengembang</h2>
+            </div>
+            <div class="team-grid" id="team-container"></div>
+        </section>
+
+        <section id="luaran" class="section-block">
+            <div class="section-header">
+                <span class="section-tag">03 / Karya Pameran</span>
+                <h2>Luaran Capstone Project</h2>
+            </div>
+
+            <div class="luaran-layout">
+                <div class="video-glass-container">
+                    <div class="video-player-wrapper">
+                        <video controls autoplay loop muted playsinline>
+                            <source src="assets/Video.mp4" type="video/mp4">
+                            Browser Anda tidak mendukung tag pemutar video.
+                        </video>
+                    </div>
+                </div>
+
+                <div class="btn-youtube-wrapper">
+                    <a href="https://www.youtube.com/watch?v=GANTI_DENGAN_ID_VIDEO_YOUTUBE_MU" target="_blank" class="btn-youtube">
+                        <i class="fab fa-youtube"></i> Tonton di YouTube
+                    </a>
+                </div>
+
+                <div class="media-showcase-grid">
+
+                    <div class="media-glass-box">
+                        <h3>Poster</h3>
+                        <div class="img-wrapper">
+                            <img src="assets/Poster.png" alt="Poster Insomnify" class="modal-trigger" data-img="assets/Poster.png">
+                        </div>
+                    </div>
+
+                    <div class="media-glass-box">
+                        <h3>Banner</h3>
+                        <div class="img-wrapper">
+                            <img src="assets/Banner.png" alt="Banner Insomnify" class="modal-trigger" data-img="assets/Banner.png">
+                        </div>
+                    </div>
+
+                    <div class="media-glass-box">
+                        <h3>Buku Panduan</h3>
+                        <div class="img-wrapper">
+                            <img src="assets/Cover Buku Panduan.png" alt="Cover Buku Panduan Insomnify" class="modal-trigger" data-img="assets/Cover Buku Panduan.png">
+                        </div>
+                        <a href="assets/Buku Panduan.pdf" target="_blank" class="pdf-btn-open">
+                            <i class="fas fa-file-pdf"></i> Baca PDF Selengkapnya
+                        </a>
+                    </div>
+
+                    <div class="media-glass-box">
+                        <h3>Leaflet</h3>
+                        <div class="img-wrapper" style="display: flex; flex-direction: column; gap: 20px; align-items: center;">
+                            <div style="width: 100%; max-width: 320px; text-align: center;">
+                                <img src="assets/Leaflet1.png" alt="Leaflet Edukasi Halaman 1" class="modal-trigger" data-img="assets/Leaflet1.png" style="width: 100%; height: auto; display: block; margin: 0 auto;">
+                            </div>
+                            <div style="width: 100%; max-width: 320px; text-align: center;">
+                                <img src="assets/Leaflet2.png" alt="Leaflet Edukasi Halaman 2" class="modal-trigger" data-img="assets/Leaflet2.png" style="width: 100%; height: auto; display: block; margin: 0 auto;">
+                            </div>
+                        </div>
+                        <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: -0.5rem;">*Klik pada masing-masing halaman untuk memperbesar</p>
+                    </div>
+
+                </div>
+
+                <div class="demo-cta-box">
+                    <i class="fas fa-rocket cta-icon"></i>
+                    <h3>Rasakan Langsung Pengalaman Deteksi</h3>
+                    <p>Buka platform utama INSOMNIFY sekarang untuk menguji fungsionalitas sistem pakar kami secara real-time.</p>
+                    <a href="https://insomnify.vercel.app/" target="_blank" class="btn btn-primary btn-large">
+                        <i class="fas fa-external-link-alt"></i> Kunjungi Website Utama INSOMNIFY
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <div id="imageModal" class="modal-box">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="modalImg" alt="Pratinjau Gambar">
+    </div>
+
+    <footer>
+        <div class="footer-inner">
+            <p class="footer-title">INSOMNIFY — Deteksi Dini Gangguan Insomnia</p>
+            <p class="footer-copy">&copy; 2026 Tim Pengembang INSOMNIFY · Kelompok 3 · Capstone Project</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
