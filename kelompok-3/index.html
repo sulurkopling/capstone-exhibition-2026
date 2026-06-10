@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INSOMNIFY — Deteksi Dini Gangguan Insomnia | Kelompok 3</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -121,68 +122,73 @@
             <div class="luaran-layout">
                 <div class="video-glass-container">
                     <div class="video-player-wrapper">
-                        <video controls autoplay loop muted playsinline>
-                            <source src="assets/Video.mp4" type="video/mp4">
-                            Browser Anda tidak mendukung tag pemutar video.
-                        </video>
+                        <iframe src="https://www.youtube.com/embed/11gQ963oszg" title="Video Demo"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div class="media-showcase-grid">
+
+                <div class="media-glass-box">
+                    <h3>Poster</h3>
+                    <div class="img-wrapper">
+                        <img src="assets/Poster.png" alt="Poster Insomnify" class="modal-trigger"
+                            data-img="assets/Poster.png">
                     </div>
                 </div>
 
-                <div class="btn-youtube-wrapper">
-                    <a href="https://www.youtube.com/watch?v=GANTI_DENGAN_ID_VIDEO_YOUTUBE_MU" target="_blank" class="btn-youtube">
-                        <i class="fab fa-youtube"></i> Tonton di YouTube
+                <div class="media-glass-box">
+                    <h3>Banner</h3>
+                    <div class="img-wrapper">
+                        <img src="assets/Banner.png" alt="Banner Insomnify" class="modal-trigger"
+                            data-img="assets/Banner.png">
+                    </div>
+                </div>
+
+                <div class="media-glass-box">
+                    <h3>Buku Panduan</h3>
+                    <div class="img-wrapper">
+                        <img src="assets/Cover Buku Panduan.png" alt="Cover Buku Panduan Insomnify"
+                            class="modal-trigger" data-img="assets/Cover Buku Panduan.png">
+                    </div>
+                    <a href="assets/Buku Panduan.pdf" target="_blank" class="pdf-btn-open">
+                        <i class="fas fa-file-pdf"></i> Baca PDF Selengkapnya
                     </a>
                 </div>
 
-                <div class="media-showcase-grid">
-
-                    <div class="media-glass-box">
-                        <h3>Poster</h3>
-                        <div class="img-wrapper">
-                            <img src="assets/Poster.png" alt="Poster Insomnify" class="modal-trigger" data-img="assets/Poster.png">
+                <div class="media-glass-box">
+                    <h3>Leaflet</h3>
+                    <div class="img-wrapper"
+                        style="display: flex; flex-direction: column; gap: 20px; align-items: center;">
+                        <div style="width: 100%; max-width: 320px; text-align: center;">
+                            <img src="assets/Leaflet1.png" alt="Leaflet Edukasi Halaman 1" class="modal-trigger"
+                                data-img="assets/Leaflet1.png"
+                                style="width: 100%; height: auto; display: block; margin: 0 auto;">
+                        </div>
+                        <div style="width: 100%; max-width: 320px; text-align: center;">
+                            <img src="assets/Leaflet2.png" alt="Leaflet Edukasi Halaman 2" class="modal-trigger"
+                                data-img="assets/Leaflet2.png"
+                                style="width: 100%; height: auto; display: block; margin: 0 auto;">
                         </div>
                     </div>
-
-                    <div class="media-glass-box">
-                        <h3>Banner</h3>
-                        <div class="img-wrapper">
-                            <img src="assets/Banner.png" alt="Banner Insomnify" class="modal-trigger" data-img="assets/Banner.png">
-                        </div>
-                    </div>
-
-                    <div class="media-glass-box">
-                        <h3>Buku Panduan</h3>
-                        <div class="img-wrapper">
-                            <img src="assets/Cover Buku Panduan.png" alt="Cover Buku Panduan Insomnify" class="modal-trigger" data-img="assets/Cover Buku Panduan.png">
-                        </div>
-                        <a href="assets/Buku Panduan.pdf" target="_blank" class="pdf-btn-open">
-                            <i class="fas fa-file-pdf"></i> Baca PDF Selengkapnya
-                        </a>
-                    </div>
-
-                    <div class="media-glass-box">
-                        <h3>Leaflet</h3>
-                        <div class="img-wrapper" style="display: flex; flex-direction: column; gap: 20px; align-items: center;">
-                            <div style="width: 100%; max-width: 320px; text-align: center;">
-                                <img src="assets/Leaflet1.png" alt="Leaflet Edukasi Halaman 1" class="modal-trigger" data-img="assets/Leaflet1.png" style="width: 100%; height: auto; display: block; margin: 0 auto;">
-                            </div>
-                            <div style="width: 100%; max-width: 320px; text-align: center;">
-                                <img src="assets/Leaflet2.png" alt="Leaflet Edukasi Halaman 2" class="modal-trigger" data-img="assets/Leaflet2.png" style="width: 100%; height: auto; display: block; margin: 0 auto;">
-                            </div>
-                        </div>
-                        <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: -0.5rem;">*Klik pada masing-masing halaman untuk memperbesar</p>
-                    </div>
-
+                    <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: -0.5rem;">*Klik pada
+                        masing-masing halaman untuk memperbesar</p>
                 </div>
 
-                <div class="demo-cta-box">
-                    <i class="fas fa-rocket cta-icon"></i>
-                    <h3>Rasakan Langsung Pengalaman Deteksi</h3>
-                    <p>Buka platform utama INSOMNIFY sekarang untuk menguji fungsionalitas sistem pakar kami secara real-time.</p>
-                    <a href="https://insomnify.vercel.app/" target="_blank" class="btn btn-primary btn-large">
-                        <i class="fas fa-external-link-alt"></i> Kunjungi Website Utama INSOMNIFY
-                    </a>
-                </div>
+            </div>
+
+            <div class="demo-cta-box">
+                <i class="fas fa-rocket cta-icon"></i>
+                <h3>Rasakan Langsung Pengalaman Deteksi</h3>
+                <p>Buka platform utama INSOMNIFY sekarang untuk menguji fungsionalitas sistem pakar kami secara
+                    real-time.</p>
+                <a href="https://insomnify.vercel.app/" target="_blank" class="btn btn-primary btn-large">
+                    <i class="fas fa-external-link-alt"></i> Kunjungi Website Utama INSOMNIFY
+                </a>
+            </div>
             </div>
         </section>
 
