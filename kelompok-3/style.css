@@ -586,10 +586,16 @@ body {
 }
 
 /* KARTU LUARAN KARYA (GRID GLOBAL) */
+
+.luaran-layout {
+    margin-bottom: 40px; /* <--- TAMBAHKAN BARIS INI */
+}
+
 .media-showcase-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
+    margin-top: 40px; /* <--- TAMBAHKAN BARIS INI (Sesuaikan angkanya jika kurang/lebih lebar) */
 }
 
 .media-glass-box {
@@ -680,6 +686,7 @@ body {
     padding: 4rem 2rem;
     text-align: center;
     box-shadow: var(--glass-shadow);
+     margin-top: 50px;
 }
 
 .demo-cta-box i.cta-icon {
