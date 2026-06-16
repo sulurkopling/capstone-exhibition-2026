@@ -2,22 +2,23 @@ const teamData = [
     {
         nama: "Inna Putri Meida",
         nim: "23051130027",
-        avatar: "https://ui-avatars.com/api/?name=Inna+Putri&background=0d6efd&color=fff&size=256"
+        // Sesuaikan dengan nama folder dan file gambarmu
+        avatar: "assets/team/inna.png" 
     },
     {
         nama: "Rajendriya D",
         nim: "23051130010",
-        avatar: "https://ui-avatars.com/api/?name=Rajendriya+D&background=0d6efd&color=fff&size=256"
+        avatar: "assets/team/rajen.png"
     },
     {
         nama: "Rigel Nadimaisy. A",
         nim: "23051130024",
-        avatar: "https://ui-avatars.com/api/?name=Rigel+Nadimaisy&background=0d6efd&color=fff&size=256"
+        avatar: "assets/team/rigel.png"
     },
     {
         nama: "Muhammad Damar. Z. A",
         nim: "23051130033",
-        avatar: "https://ui-avatars.com/api/?name=Muhammad+Damar&background=0d6efd&color=fff&size=256"
+        avatar: "assets/team/damar.png"
     }
 ];
 

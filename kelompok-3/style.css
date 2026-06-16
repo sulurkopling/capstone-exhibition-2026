@@ -509,6 +509,22 @@ body {
     transition: var(--transition);
 }
 
+.team-avatar-wrapper {
+    width: 120px; /* Atur besar lingkaran di sini */
+    height: 120px;
+    border-radius: 50%; /* Ini yang membuatnya bulat sempurna */
+    overflow: hidden;
+    margin: 0 auto 15px auto; /* Agar posisinya di tengah */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Opsional: tambah bayangan sedikit */
+}
+
+.team-avatar-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ini wajib agar foto menyesuaikan bingkai tanpa gepeng */
+    display: block;
+}
+
 .team-card:hover {
     transform: translateY(-8px);
     background: var(--glass-bg-hover);
@@ -516,21 +532,6 @@ body {
     box-shadow: var(--glass-shadow-hover);
 }
 
-.team-avatar-wrapper {
-    position: relative;
-    width: 110px;
-    height: 110px;
-    margin: 0 auto 1.5rem;
-}
-
-.team-avatar-wrapper img {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 4px solid var(--glass-bg);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-}
 
 .team-card h3 {
     font-size: 1.15rem;
